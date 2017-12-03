@@ -13,6 +13,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -20,13 +21,8 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <header>
-            <h1>Fresh. Local. Natural.</h1>
-            <h2>Certified naturally grown vegetables for indy</h2>
+        <nav class="nav">
             <img src="http://static1.squarespace.com/static/557de45ae4b003675239d3a1/t/5913ce06bebafb461a10646b/1495549403421/?format=1500w" alt="Kingdom Farms logo">
-        </header>
-
-        <nav>
             <ul>
                 <li><a href="http://kingdomfarmsindy.com/">About</a></li>
                 <li><a href="http://kingdomfarmsindy.com/blog/">Blog</a></li>
@@ -35,19 +31,34 @@
                 <li><a href="http://kingdomfarmsindy.com/farm-images">Farm</a></li>
                 <li><a href="http://kingdomfarmsindy.com/team">Team</a></li>
                 <li><a href="http://kingdomfarmsindy.com/faq/">FAQ</a></li>
+                <li><a class="button" href="https://squareup.com/store/kingdomfarmsindy/">CSA SIGN UP</a></li>
             </ul>
-            <a href="https://squareup.com/store/kingdomfarmsindy/">CSA SIGN UP</a>
         </nav>
 
-        <section>
-            <h2>About Our Farm</h2>
-            <p>Kingdom Farms was founded by a first generation farmer with the belief that our local communities deserve access to healthy, non-GMO, Certified Naturally Grown foods. Rooted in this belief, Kingdom Farms was started in 2016 on the west side of Indianapolis. Our farm is a full service vegetable farm serving CSA memberships, farmers markets, and Indianapolis area restaurants.</p>
+        <header class="header">
+            <div class="header__content">
+                <h1>Fresh. Local. Natural.</h1>
+                <h2>Certified naturally grown vegetables for indy</h2>
+            </div>
+            <img class="header__photo" src="https://static1.squarespace.com/static/557de45ae4b003675239d3a1/t/586aace9893fc03b14f6f94b/1483386186681/?format=1000w" alt="vegetables">
+        </header>
+
+        <section class="about">
+            <div class="about__content">
+                <h2>About Our Farm</h2>
+                <p>Kingdom Farms was founded by a first generation farmer with the belief that our local communities deserve access to healthy, non-GMO, Certified Naturally Grown foods. Rooted in this belief, Kingdom Farms was started in 2016 on the west side of Indianapolis. Our farm is a full service vegetable farm serving CSA memberships, farmers markets, and Indianapolis area restaurants.</p>
+            </div>
         </section>
 
-        <section>
-            <h2>Our Products</h2>
-            <p>We grow a variety of fresh, non-GMO, Certified Naturally Grown vegetables on our farm. For the 2017 season we will have the following products available:</p>
-            <p>Tomatoes, Green Beans, Sweet Corn, Sweet Onion, Peppers, Sweet Peppers, Bell Peppers, Romaine Lettuce, Salanova Lettuce, Mixed Lettuce, Mild Mustard Lettuce, Carrots, Potatoes, Arugula, Red Potatoes, Radishes, Cucumbers, Muskmelon, Pumpkins, Squash, Zucchini, Cherry Tomatoes, &amp; Cabbage</p>
+        <section class="products">
+            <div class="products__title">
+                <h2>Our Products</h2>
+            </div>
+            <img class="products__image" src="https://static1.squarespace.com/static/557de45ae4b003675239d3a1/t/586aace9893fc03b14f6f94b/1483386186681/?format=1000w" alt="vegetables">
+            <div class="products__content">
+                <p>We grow a variety of fresh, non-GMO, Certified Naturally Grown vegetables on our farm. For the 2017 season we will have the following products available:</p>
+                <p>Tomatoes, Green Beans, Sweet Corn, Sweet Onion, Peppers, Sweet Peppers, Bell Peppers, Romaine Lettuce, Salanova Lettuce, Mixed Lettuce, Mild Mustard Lettuce, Carrots, Potatoes, Arugula, Red Potatoes, Radishes, Cucumbers, Muskmelon, Pumpkins, Squash, Zucchini, Cherry Tomatoes, &amp; Cabbage</p>
+            </div>
         
 
             <article>
@@ -101,6 +112,16 @@
             <h2>Contact Kingdom Farms</h2>
             <p>We would love to hear from you. If you have questions about CSA memberships, collaboration, press or events please fill out the form below.</p>
 
+            <form action="my=form.php">
+                <p>First Name: <input type="text" name="First Name"> Last Name: <input type="test" name="Last Name"><br>
+                Email Address: <input type="text" name="Email Address"><br>
+                Subject: <input type="text" name="Subject"><br>
+                Message?<br>
+                <textarea name="Message"></textarea>
+                </p>
+                <a href="#">Submit</a>
+            </form>
+
             <h3>Visit Our Farm</h3>
             <p>Order pickups are available on our farm by appointment only. We don't yet have a retail space so we need to know when you will stop by so we can be available to serve you.</p>
             <p>9463 North County Road 75 West</p>
@@ -109,7 +130,12 @@
 
         <section>
             <h2>Email Newsletter</h2>
-            <h3>Sign up to receive updates about farmers markets, CSA memberships &amp; events.</h3>
+            <p>Sign up to receive updates about farmers markets, CSA memberships &amp; events.</p>
+            <form action="my=form.php">
+                <p>First Name: <input type="text" name="First Name"> Last Name: <input type="test" name="Last Name">Email Address: <input type="text" name="Email Address"><br>
+                </p>
+                <a href="#">Submit</a>
+            </form>
         </section>
 
         <footer>
