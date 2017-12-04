@@ -109,6 +109,10 @@ h2 {
     font-size: 3em;
 }
 
+h3 {
+    color: #5f956d;
+}
+
 img {
     max-width: 100%;
     display: block;
@@ -117,8 +121,13 @@ img {
 a {
     text-decoration: none;
     color: white;
-    background: green;
-    padding: 20px;
+    background: #5f956d;
+    padding: 10px 30px;
+    font-size: .85em;
+}
+
+a:hover {
+    background: #7ba686;
 }
 
 
@@ -140,7 +149,7 @@ a {
 }
 
 .nav li {
-    padding: 18px;
+    padding: 2px;
     display: inline;
 }
 
@@ -161,6 +170,11 @@ a {
     border: 2px solid white;
     padding: 10px 20px;
     border-radius: 20px;
+}
+
+.nav .button:hover {
+    background: white;
+    color: black;
 }
 
 /**Header**/
@@ -211,7 +225,7 @@ a {
 }
 
 .about h2 {
-    color: green;
+    color: #5f956d;
     font-size: 2em;
 }
 
@@ -247,8 +261,120 @@ a {
     padding: 5em;
 }
 
+.product-thumb {
+    width: 27%;
+    float: left;
+    padding: 1em;
+    margin-bottom: 5em;
+}
 
+.product-thumb p {
+    padding-bottom: 20px;
+}
 
+.clear {
+    clear: both;
+    margin-left: 14em;
+    margin-right: 8em;
+}
+
+/**Farm section**/
+.top-row {
+    width: 40%;
+    padding: 1em;
+    display: inline;
+}
+
+.bottom-row {
+    width: 25%;
+    padding: 1em;
+    display: inline;
+}
+
+/**Team section**/
+.wrapped-photo-caption {
+    width: 30%;
+    float: left;
+    padding: 2em;
+}
+
+.wrapped-text {
+    text-align: left;
+}
+
+/**Contact section**/
+.content-left {
+    text-align: left;
+    width: 50%;
+    float: left;
+    margin: 0;
+    padding-right: 2em;
+}
+.sidebar {
+    width: 40%;
+    float: right;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.newsletter {
+    clear: both;
+    text-align: center;
+    padding-top: 6em;
+}
+
+/**Footer**/
+.nav2 {
+    margin-top: 3em;
+    margin-left: 6em;
+    margin-right: 6em;
+    border-bottom: 1px solid #cccccc;
+}
+
+.nav2 a {
+    text-decoration: underline;
+    color: #666666;
+    font-size: .8em;
+    background: none;
+}
+
+.nav2 ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.table-container {
+    display: table;
+    border-spacing: 10px;
+}
+
+.tablerow {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    vertical-align: top;
+    padding: 2em;
+}
+
+.copyright-and-credit {
+    font-style: italic;
+    clear: both;
+    padding-top: 4em;
+}
+
+.copyright-and-credit a {
+    color: #666666;
+    text-decoration: underline;
+    background: none;
+    padding: 0;
+}
+
+.copyright-and-credit p {
+    text-align: center;
+}
 
 /* ==========================================================================
    Helper classes
