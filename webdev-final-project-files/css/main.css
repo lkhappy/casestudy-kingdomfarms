@@ -230,12 +230,12 @@ a:hover {
 }
 
 /**Products section**/
-.products {
+.sections {
     position: relative;
 }
 
 
-.products__image {
+.sections__image {
     position: relative;
     z-index: -100;
     display: block;
@@ -244,7 +244,7 @@ a:hover {
     margin: 0;
 }
 
-.products__title {
+.sections__title {
     position: absolute;
     top: 4em;
     left: 50%;
@@ -254,7 +254,7 @@ a:hover {
     margin-top: 50px;
 }
 
-.products__content {
+.sections__content {
     text-align: center;
     margin-left: 4em;
     margin-right: 4em;
