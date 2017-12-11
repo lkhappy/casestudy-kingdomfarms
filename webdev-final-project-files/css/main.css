@@ -184,13 +184,17 @@ a:hover {
     margin: 0;
 }
 
-.header__photo {
+figure {
     position: relative;
     z-index: -10;
+    width: 100%;
+    margin: 0;
+}
+
+figure img {
     display: block;
     width: 100%;
-    height: 500px;
-    margin: 0;
+    margin: -17% 0;
 }
 
 .header__content {
@@ -232,15 +236,15 @@ a:hover {
 /**Products section**/
 .sections {
     position: relative;
+    padding: 0;
+    margin: 0;
 }
-
 
 .sections__image {
     position: relative;
     z-index: -100;
     display: block;
     width: 100%;
-    height: 500px;
     margin: 0;
 }
 
@@ -252,6 +256,18 @@ a:hover {
     transform: translate(-50%,-50%);
     text-align: center;
     margin-top: 50px;
+}
+
+.banner-type1 {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+.banner-type1 img {
+    display: block;
+    width: 100%;
+    margin: -20% 0;
 }
 
 .sections__content {
@@ -279,38 +295,62 @@ a:hover {
 }
 
 /**Farm section**/
-.top-row {
+.top-row-images {
     width: 40%;
     padding: 1em;
     display: inline;
 }
 
-.bottom-row {
+.bottom-row-images {
     width: 25%;
     padding: 1em;
     display: inline;
 }
 
 /**Team section**/
+.banner-type2 {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+.banner-type2 img {
+    display: block;
+    width: 100%;
+    margin: -35% 0;
+}
+
 .wrapped-photo-caption {
     width: 30%;
     float: left;
     padding: 2em;
 }
 
-.wrapped-text {
+.wrapped-photo-description {
     text-align: left;
 }
 
 /**Contact section**/
-.content-left {
+.banner-type3 {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+.banner-type3 img {
+    display: block;
+    width: 100%;
+    margin: -50% 0;
+}
+
+.contact-signup-left {
     text-align: left;
     width: 50%;
     float: left;
     margin: 0;
     padding-right: 2em;
 }
-.sidebar {
+.visit-info-right {
     width: 40%;
     float: right;
     margin: 0;
